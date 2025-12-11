@@ -10,6 +10,12 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Jagath Enterprises - Gully Bowser Service",
   description: "Professional waste disposal solutions for homes, hotels, businesses, and industries.",
+  formatDetection: {
+    telephone: false,
+    date: false,
+    email: false,
+    address: false,
+  },
 };
 
 export default function RootLayout({
