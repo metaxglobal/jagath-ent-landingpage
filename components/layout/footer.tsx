@@ -49,7 +49,9 @@ export function Footer() {
                     </p>
                     <div className="flex items-center gap-3 text-xs text-muted-foreground/75">
                         <span>Design & Develop by</span>
-                        <Image src="/nexgen logo.png" alt="Developer Logo" width={86} height={12} />
+                        <a href="https://www.nexgenlab.global/" target="_blank" rel="noopener noreferrer">
+                            <Image src="/nexgen logo.png" alt="Developer Logo" width={86} height={12} />
+                        </a>
                     </div>
                 </div>
             </Container>
