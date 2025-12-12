@@ -15,7 +15,7 @@ export function ContactModal({ isOpen, onClose, phonePrimary = "077 818 6403", p
 
     return (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4 backdrop-blur-sm">
-            <div className="relative flex w-full max-w-[500px] flex-col gap-8 rounded-[22px] bg-white p-6 outline outline-1 outline-white/10 md:p-6">
+            <div className="relative flex w-full max-w-[520px] flex-col gap-8 rounded-[22px] bg-white p-6 outline outline-1 outline-white/10 md:p-6">
 
                 {/* Header */}
                 <div className="flex items-start justify-between gap-8">
@@ -49,12 +49,20 @@ export function ContactModal({ isOpen, onClose, phonePrimary = "077 818 6403", p
                             <span className="text-xs font-medium text-[#1E1E1E]/70">(Primary)</span>
                         </div>
 
-                        {/* Secondary Phone */}
-                        <div className="flex flex-col items-center gap-1 w-full">
-                            <Button className="w-[220px] h-[44px] rounded-[12px] bg-primary text-secondary text-base font-semibold hover:bg-primary/90">
-                                <HugeiconsIcon icon={Call02Icon} size={20} className="mr-2 text-secondary" />
-                                {phoneSecondary}
-                            </Button>
+                        {/* Secondary Phones */}
+                        <div className="flex flex-col items-center gap-2 w-full">
+                            <div className="flex flex-wrap items-center justify-center gap-4 w-full px-2">
+                                {["074 180 0904", "0779008874", "0723760441"].map((num) => (
+                                    <Button
+                                        key={num}
+                                        variant="outline"
+                                        className="h-[36px] min-w-[120px] rounded-[10px] border-[#C2C2C2] bg-transparent text-sm font-medium text-secondary hover:bg-gray-50 hover:text-secondary px-3"
+                                    >
+                                        <HugeiconsIcon icon={Call02Icon} size={16} className="mr-2 text-secondary" />
+                                        {num}
+                                    </Button>
+                                ))}
+                            </div>
                             <span className="text-xs font-medium text-[#1E1E1E]/70">(Secondary)</span>
                         </div>
                     </div>

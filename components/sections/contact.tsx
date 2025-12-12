@@ -39,8 +39,8 @@ export function ContactSection() {
                                 </div>
                                 <div className="flex flex-col gap-1">
                                     <span className="text-base font-medium text-secondary tracking-tighter">Phone</span>
-                                    <span className="text-base text-muted-foreground/75 leading-[1] tracking-tight">077 818 6403</span>
-                                    <span className="text-base text-muted-foreground/75 leading-[1] tracking-tight">074 180 0904</span>
+                                    <span className="text-base text-muted-foreground/75 leading-[1] tracking-tight"> <b>077 818 6403</b>  / 074 180 0904</span>
+                                    <span className="text-base text-muted-foreground/75 leading-[1] tracking-tight">0779008874 / 0723760441</span>
                                 </div>
                             </div>
                             {/* Email */}
@@ -78,6 +78,6 @@ export function ContactSection() {
                     </div>
                 </div>
             </Container>
-        </section>
+        </section >
     );
 }
