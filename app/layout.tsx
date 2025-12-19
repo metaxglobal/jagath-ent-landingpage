@@ -8,13 +8,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://jagathenterprises.com"),
+  metadataBase: new URL("https://jagathenterprises.lk"),
   title: "Jagath Enterprises - Gully Bowser Service",
   description: "Professional waste disposal solutions for homes, hotels, businesses, and industries.",
   openGraph: {
     title: "Jagath Enterprises - Gully Bowser Service",
     description: "Professional waste disposal solutions for homes, hotels, businesses, and industries.",
-    url: "https://jagathenterprises.com",
+    url: "https://jagathenterprises.lk",
     siteName: "Jagath Enterprises",
     locale: "en_US",
     type: "website",
