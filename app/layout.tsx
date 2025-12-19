@@ -16,6 +16,14 @@ export const metadata: Metadata = {
     description: "Professional waste disposal solutions for homes, hotels, businesses, and industries.",
     url: "https://jagathenterprises.lk",
     siteName: "Jagath Enterprises",
+    images: [
+      {
+        url: "https://jagathenterprises.lk/opengraph-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Jagath Enterprises",
+      },
+    ],
     locale: "en_US",
     type: "website",
   },
@@ -23,6 +31,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Jagath Enterprises - Gully Bowser Service",
     description: "Professional waste disposal solutions for homes, hotels, businesses, and industries.",
+    images: ["https://jagathenterprises.lk/twitter-image.png"],
   },
   formatDetection: {
     telephone: false,
