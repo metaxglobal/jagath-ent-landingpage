@@ -9,10 +9,10 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://jagathenterprises.lk"),
-  title: "Jagath Enterprises - Gully Bowser Service",
+  title: "Jagath Enterprises - Reliable Gully Bowser & Waste Disposal Services.",
   description: "Professional waste disposal solutions for homes, hotels, businesses, and industries.",
   openGraph: {
-    title: "Jagath Enterprises - Gully Bowser Service",
+    title: "Jagath Enterprises - Reliable Gully Bowser & Waste Disposal Services.",
     description: "Professional waste disposal solutions for homes, hotels, businesses, and industries.",
     url: "https://jagathenterprises.lk",
     siteName: "Jagath Enterprises",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jagath Enterprises - Gully Bowser Service",
+    title: "Jagath Enterprises - Reliable Gully Bowser & Waste Disposal Services.",
     description: "Professional waste disposal solutions for homes, hotels, businesses, and industries.",
     images: ["https://jagathenterprises.lk/twitter-image.png"],
   },

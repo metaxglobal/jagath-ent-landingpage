@@ -44,8 +44,7 @@ export function Footer() {
                 {/* Bottom: Copyright & Credit */}
                 <div className="flex w-full flex-col items-center gap-4 text-center lg:flex-row lg:justify-between lg:text-left">
                     <p className="text-xs text-muted-foreground/75 leading-4 lg:w-[540px]">
-                        © 2025 Jagath Enterprises. All rights reserved.<br className="sm:hidden" />
-                        Reliable Gully Bowser & Waste Disposal Services.
+                        © 2025 Jagath Enterprises. All rights reserved.
                     </p>
                     <div className="flex items-center gap-3 text-xs text-muted-foreground/75">
                         <span>Design & Develop by</span>
